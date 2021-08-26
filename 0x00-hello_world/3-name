@@ -1,2 +1,8 @@
-#!/bin/bash
-gcc -0 $CFILE
+/* Name.c */
+#include <stdio.h>
+
+int main(){
+printf("cisfun\n");
+
+return 0;
+}
