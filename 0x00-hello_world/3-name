@@ -1,8 +1,2 @@
-/* Name.c */
-#include <stdio.h>
-
-int main(){
-printf("cisfun\n");
-
-return 0;
-}
+#!/bin/bash
+gcc -o cisfun $CFILE
