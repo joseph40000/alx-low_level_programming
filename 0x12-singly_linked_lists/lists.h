@@ -1,12 +1,18 @@
-#ifndef LISTS_H
-#define LISTS_H
+#ifndef ALX_H
+#define ALX_H
+
+#include <stdio.h>
 
 /**
- * struct list_s - prototype - singly linked list
+ * struct list_s - (singly linked list)
  * @str: string - (malloc'ed string)
- *
+ * @len: lenth of string
  * @Next: points to the next node
+ *
+ * Description: singly linked list node structure
+ * for Holberton project
  */
+
 typedef struct list_s 
 {     
 	char *str;
