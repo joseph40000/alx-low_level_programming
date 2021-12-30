@@ -1,9 +1,10 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * main - Entry block
  * Description: prints holberton on new line
  * Return: 0
  */
+
 int main(void)
 {
 	char c[10] = "Holberton";
