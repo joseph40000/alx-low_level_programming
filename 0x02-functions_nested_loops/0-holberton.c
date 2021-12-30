@@ -1,30 +1,20 @@
-#define HOLBERTON_H
+#include "holberton.h"
+/**
+ * main - Entry block
+ * Description: prints holberton on new line
+ * Return: 0
+ */
+int main(void)
+{
+	char c[10] = "Holberton";
 
-/* _putchar.c */
-int _putchar(char);
+	int i = 0;
 
-/*10 x alphabet */
-void print_alphabet(void);
-
-/* 2-print_alphabet_x10.c */
-void print_alphabet_x10(void);
-
-int _islower(int c);
-
-int _isalpha(int n);
-
-int print_sign(int n);
-
-int _abs(int n);
-
-int print_last_digit(int n);
-
-void jack_bauer(void);
-
-void times_table(void);
-
-int add(int a, int b);
-
-void print_to_98(int n);
-
-void print_times_table(int n);
+	while (i < 9)
+	{
+		_putchar(c[i]);
+		i++;
+	}
+	_putchar('\n');
+	return (0);
+}
