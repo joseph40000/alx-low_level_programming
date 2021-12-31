@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * main - print_times_table - prints times table
- * @n : timestable to use
+ * print_times_table - prints multiplication table up to param
+ * @n: The number to be treated
  * 
- * Return: Always void.
+ * Return: Number matrix
  */
 
 void print_times_table(int n)
