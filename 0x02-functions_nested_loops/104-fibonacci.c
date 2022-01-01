@@ -3,7 +3,7 @@
 
 
 /**
- * numlength -returns the lenth of string
+ * numlength - returns the lenth of string
  * @num : operand number
  * Return: number of digits
  */
@@ -27,7 +27,7 @@ int numlength(int num)
 /**
  * main - prints the first 98 fibonacci sequences
  *
- * Return: 0.
+ * Return: 0
  */
 int main(void )
 {
